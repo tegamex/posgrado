@@ -5,4 +5,490 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string-array name="facultades">
+        <item>faua</item>
+        <item>fc</item>
+        <item>fia</item>
+        <item>fic</item>
+        <item>fieecs</item>
+        <item>fiee</item>
+        <item>figmm</item>
+        <item>fiis</item>
+        <item>fim</item>
+        <item>fip</item>
+        <item>fiqt</item>
+    </string-array>
+    <string name="nombre_facultad_faua">Facultad de Arquitectura Urbanismo y Arte</string>
+    <string name="info_facultad_faua">
+        La misión de la Facultad de Arquitectura, Urbanismo y Artes (FAUA) es contribuir a la formación
+        profesional con excelencia académica, con alto nivel y calidad, cumpliendo una labor estratégica
+        en el desarrollo del país, tal es el caso de la participación en más del 90% de proyectos regionales
+        y municipales en todo el país. En los congresos estudiantiles nacionales e internaciones vienen
+        ocupando los primeros lugares en las diferentes categorías: Construcción, Urbanismo, Diseño,
+        Paisajismo y Artes.
+        La Facultad de Arquitectura, Urbanismo y artes, inicia su vida institucional bajo el nombre de
+        sección Especial de Arquitectura y Constructores, siendo creada por el Presidente Augusto B. Leguía
+        mediante Decreto Supremo el 29 de Abril de 1910; su dirección a cargo del Arq. Ricardo de Jaza Malachowski,
+        de origen polaco con estudios en la Escuela de Bellas Artes de París.
+    </string>
+    <string name="pagina_facultad_faua">http://faua.arquitectura.edu.pe/</string>
+    <string-array name="escuela_facultad_faua">
+        <item>arquitectura</item>
+    </string-array>
+    <string name="nombre_escuela_arquitectura">Arquitectura</string>
+    <string name="info_escuela_arquitectura">El arquitecto egresado de la UNI, está preparado para servir al
+        desarrollo del país, por su formación profesional, basada en una educación de excelencia académica, enmarcada
+        en la práctica de los valores culturales, nacionales, institucionales, éticos y morales.
+        Está capacitado para enfrentar los retos de continuos cambios en el campo ocupacional del diseño urbano
+        y arquitectónico, la construcción y la tecnología, el urbanismo, la habilitación urbana y la planificación.
+    </string>
+
+    <string name="nombre_facultad_fc">Facultad de Ciencias</string>
+    <string name="info_facultad_fc">
+        La Facultad de Ciencias ofrece el grado de Bachiller en Ciencias con mención en las especialidades de
+        Ingeniería Física, Física, Química, Matemática y Ciencia de la Computación, y los títulos profesionales
+        de Ingeniero Físico y Licenciado en Física, en Química, en Matemática y en Ciencia de la Computación.
+        Gran importancia tiene en la Facultad de Ciencias su Instituto de Matemática y Ciencias Afines IMCA.
+        Desde su creación es la dependencia encargada de la formación de los Maestros en Matemática
+        Aplicada, en Economía Matemática y de los Doctores en Matemática. Para ello coordina con la Sección
+        de Posgrado y con la Escuela Profesional de Matemática de esta Facultad.
+    </string>
+    <string name="pagina_facultad_fc">http://fc.uni.edu.pe/fc/</string>
+    <string-array name="escuela_facultad_fc">
+        <item>ifisica</item>
+        <item>matematica</item>
+        <item>fisica</item>
+        <item>quimica</item>
+        <item>cc</item>
+    </string-array>
+    <string name="nombre_escuela_ifisica">Ingenieria Fisica</string>
+    <string name="info_escuela_ifisica">Formación integral en ciencias básicas y aplicadas,
+            lo que le permite emplear un razonamiento riguroso
+            y a la vez actuar eficientemente, tiene la Capacidad
+            de proponer, evaluar y dirigir proyectos con alto contenido
+            tecnológico, Aptitud para la investigación, que le permite
+            plantear soluciones innovadoras a problemas imprevistos,
+            Dominio de programas avanzados de computación para aplicaciones
+            en cálculo, simulación y diseño, Capacidad de integrarse a
+            equipos de trabajo multidisciplinarios aportando ideas creativas
+            y con alto sentido crítico.
+    </string>
+    <string name="nombre_escuela_matematica">Matematica</string>
+    <string name="info_escuela_matematica">Tradicionalmente el Licenciado en Matemática está capacitado para ejercer la docencia
+            universitaria en cualquier nivel académico. Sin embargo, su sólida formación le permite
+            continuar estudios de posgrado e incursionar en la investigación en ciencias básicas.
+            En la actualidad, además del perfil anterior se está dotando al Licenciado en Matemática
+            con disciplinas que caracterizan a un matemático que puede desempeñarse en la formulación
+            y análisis de modelos económicos, industriales, sociales, planeamiento y optimización de
+            procesos industriales y de ingeniería. Por consiguiente, áreas como la simulación, la
+            optimización y el análisis numérico son inherentes a este perfil.
+    </string>
+    <string name="nombre_escuela_fisica">Fisica</string>
+    <string name="info_escuela_fisica">Realizar investigaciones sobre los aspectos físicos de los materiales tanto para
+            incrementar el conocimiento científico sobre ellos como para elaborar materiales con
+            características específicas para ciertas aplicaciones, Usar la Matemática y la
+            Computación Científica para expresar y analizar sus observaciones sobre el comportamiento
+            de los sistemas físicos y formular las conclusiones correspondientes, Diseñar y construir
+            módulos y prototipos para la enseñanza de la Física en los diferentes niveles educativos.
+    </string>
+    <string name="nombre_escuela_quimica">Quimica</string>
+    <string name="info_escuela_quimica">El Licenciado en Química está capacitado para desempeñar sus labores
+            con eficiencia en los Laboratorios de Análisis Químico, Control de Calidad e
+            Investigación y Desarrollo de la Industria, cuyos procesos involucran el cambio
+            químico de la materia. Su preparación es exhaustiva en la comprensión de los fundamentos
+            y manipulación de equipos instrumentales de última generación, está entrenado en la
+            interpretación de datos experimentales y bibliográficos, de tal manera, que los
+            resultados y conclusiones de sus trabajos tengan rigor científico.
+    </string>
+    <string name="nombre_escuela_cc">Ciencia de la Computacion</string>
+    <string name="info_escuela_cc">El licenciado en Ciencia de la Computación está capacitado para ser un impulsor del
+            desarrollo de nuevas técnicas computacionales útiles a nivel nacional e internacional;
+            tiene a la computación como fin y no como medio. El científico de la computación se encarga
+            de complejas labores de programación, desde el diseño hasta la implementación del software.
+            Trabaja en el desarrollo de meta sistemas Grid, los desarrollos de computación paralela,
+            robótica, visión por computadora, sistemas inteligentes, bioinformática y otras áreas.
+            Desarrollan las mejores formas posibles de almacenar información en bases de datos, enviar
+            datos a través de la red y desplegar imágenes complejas. Sus bases teóricas les permiten
+            determinar el mejor desempeño posible y su estudio de algoritmos les ayuda a desarrollar
+            nuevas aproximaciones para proveer un mejor desempeño.
+    </string>
+
+
+
+    <string name="nombre_facultad_fia">Facultad de Ingeniería Ambiental</string>
+    <string name="info_facultad_fia">
+        La Facultad de Ingeniería Ambiental de la Universidad Nacional de Ingeniería es la única facultad
+        en el Perú que se dedica a la formación de profesionales en Ingeniería Sanitaria contribuyendo
+        sustancialmente al desarrollo sostenible del país. Ofrece Maestrías en Ciencias con mención en
+        Tratamiento de Aguas y Reutilización de Desechos; Higiene Ocupacional; y Gestión Ambiental, con
+        orientación sanitaria y ambiental, así como el Programa de Actualización y Educación Continua en
+        Ciencias e Ingeniería Ambiental. La Facultad es consciente que los grandes retos nacionales y
+        mundiales permitirán que las actuales y futuras generaciones puedan satisfacer sus necesidades y
+        alcanzar un desarrollo integral y sostenido si cuidan y preservan su ambiente; y que la educación,
+        la creatividad y la innovación tecnológica son la clave para trazar una nueva estrategia para el desarrollo.
+        Siendo necesario revertir la actual situación sanitaria y ambiental que impide un adecuado desarrollo, se demanda acciones
+        en el campo del saneamiento, la salud ocupacional, la productividad y la protección del medio ambiente.
+        Atenta a estas demandas, la Facultad de Ingeniería Ambiental, considera importante contar con el número suficiente de
+        profesionales que permitan atender las necesidades de investigación y capacitación en este campo,
+        promoviendo procesos conducentes al desarrollo sostenible nacional y mundial.
+    </string>
+    <string name="pagina_facultad_fia">http://fiauni.pe/site/</string>
+    <string-array name="escuela_facultad_fia">
+        <item>sanitaria</item>
+        <item>higiene</item>
+        <item>ambiental</item>
+    </string-array>
+    <string name="nombre_escuela_sanitaria">Ingenieria Sanitaria</string>
+    <string name="info_escuela_sanitaria">El Ingeniero Sanitario formado en la UNI,
+        es un profesional con sólida formación, innovador, gestor y líder, con gran
+        capacidad de síntesis y análisis de problemas, apto para continuar estudios de
+        perfeccionamiento en el postgrado, capaz de insertarse al mercado laboral de
+        cualquier región del país o del extranjero. Aplica los principios de la Ingeniería
+        al ambiente del trabajo, para la protección y promoción de la salud.
+    </string>
+    <string name="nombre_escuela_higiene">Ingenieria de Higiene y Seguridad</string>
+    <string name="info_escuela_higiene">El ingeniero de Higiene y Seguridad Industrial formado
+        en la UNI, es un profesional con sentido creador, emprendedor y líder, con sólidos
+        conocimientos para seguir una línea de investigación continua y superación personal.
+        Sus conocimientos de Ingeniería los aplica desarrollando: Gestión de la prevención de
+        riesgos en el medio laboral y en el entorno, debido a condiciones inadecuadas que
+        rodean al trabajador en su centro de trabajo, a la comunidad laboral que la integra
+        y al propio centro de trabajo que ponen en riesgo el bienestar y salud física y
+        mental de los trabajadores. Gestión de la prevención de riesgos a la salud ambiental,
+        proyectos de planes y programas para la gestión de la seguridad, salud ocupacional y
+        el ambiente; acciones de prevención ante el riesgo de incendios; análisis de riesgos
+        ambientales y análisis de los aspectos de la ergonomía en el trabajo.
+    </string>
+    <string name="nombre_escuela_ambiental">Ingenieria Ambiental</string>
+    <string name="info_escuela_ambiental">Las competencias generales y específicas del
+        egresado de la especialidad de Ingeniería Ambiental le permiten desempeñarse de
+        manera eficaz en cualquiera de los campos profesionales asociados con el desarrollo
+        sostenible. Entre otros:\n
+        Capacidad de aplicar sus conocimientos para el desarrollo estratégico de los
+        recursos naturales y la protección de los ecosistemas.\n
+        Responsabilidad ambiental y social que le permite participar activamente en
+        los procesos de desarrollo de las sociedades.
+    </string>
+
+
+    <string name="nombre_facultad_fic">Facultad de Ingeniería Civil</string>
+    <string name="info_facultad_fic">
+        La Facultad de Ingeniería Civil de la UNI es la Escuela de Ingenieros más antigua del Perú.
+        Sus egresados han desarrollado ingeniería nacional e internacional, además de desempeñar importantes cargos
+        en la administración pública y empresas privadas. Es Alma Mater de la moderna Ingeniería Civil en el Perú,
+        cuenta con docentes calificados y estudiantes con un alto sentido de superación, además de diversos laboratorios
+        de apoyo a la formación e investigación.
+        La organización de nuestra facultad en áreas académicas que agrupan a profesionales de especialidades
+        afines nos ha dado fortalezas competitivas en diversas áreas de la ingeniería civil, teniendo nuestros
+        egresados una formación sólida en la especialidad que el país necesita para su desarrollo.
+    </string>
+    <string name="pagina_facultad_fic">http://fic.uni.edu.pe/pagfic/PAGINAFIC1.html</string>
+    <string-array name="escuela_facultad_fic">
+        <item>civil</item>
+    </string-array>
+    <string name="nombre_escuela_civil">Ingenieria Civil</string>
+    <string name="info_escuela_civil">El egresado de la carrera de Ingeniería Civil de la
+        Universidad Nacional de Ingeniería es un profesional con capacidad para:\n
+        El planeamiento, diseño, construcción, operación, mantenimiento, renovación,
+        rehabilitación y reparación de obras civiles tanto en el medio urbano, como en el
+        rural. Tiene una sólida formación en ciencias básicas, ciencias y artes de la ingeniería,
+        formación ética y humanística, y aptitudes para satisfacer las exigencias más frecuentes
+        en su campo, considerando la diversidad de las características del país y de la complejidad
+        de su sociedad, manejando tecnologías apropiadas y de avanzada.
+    </string>
+
+
+
+    <string name="nombre_facultad_fieecs">Facultad de Ingeniería Económica Estadística y Ciencias Sociales</string>
+    <string name="info_facultad_fieecs">
+        La Facultad de Ingeniería Económica, Ciencias Sociales y Estadística  (FIECS) es la única Facultad
+        en Lima Metropolitana que se dedica a la formación de profesionales en Ingeniería Económica e Ingeniería Estadística,
+        siendo una Facultad eficiente, emprendedora e innovadora, con perfil propio al servicio del desarrollo del país dedicada
+        a la formación profesional basada en una educación de excelencia.
+        La formación académica de los Ingenieros Economistas, que se desarrolla en la Escuela Profesional de
+        Ingeniería Económica (EPIEC-FIECS) se sustenta en el conocimiento del ámbito macroeconómico,
+        microeconómico, matemático, estadístico y financiero. El Ingeniero Economista participa en la
+        programación y evaluación de proyectos nacionales, formulando y ejecutando una política económica para el desarrollo nacional, regional y sectorial. En el ámbito microeconómico, asesora y desarrolla la gestión de las empresas, respondiendo a los desafíos de la modernización.
+    </string>
+    <string name="pagina_facultad_fieecs">http://www.fieecs.org/</string>
+    <string-array name="escuela_facultad_fieecs">
+        <item>economica</item>
+        <item>estadistica</item>
+    </string-array>
+    <string name="nombre_escuela_economica">Ingenieria Economica</string>
+    <string name="info_escuela_economica">La Ingeniería Económica es una profesión
+        que tiene como base general a la ciencia económica y como rasgos distintivos,
+        su acercamiento y dominio sobre los problemas de la producción en sus aspectos
+        económicos.En lo concerniente a los aspectos económico-productivos, la Ingeniería
+        Económica aborda con especial énfasis el estudio de la inversión y la tecnología
+        (su entorno, sus condicionantes, su proceso de generación, su impacto sobre otras
+        variables, su evaluación, su gestión, sus efectos multiplicadores, etc.), así como
+        las formas y planeamientos de la organización de las empresas, las instituciones y
+        los mercados, los proyectos de inversión y la planificación.
+    </string>
+    <string name="nombre_escuela_estadistica">Ingenieria Estadistica</string>
+    <string name="info_escuela_estadistica">El Ingeniero Estadístico utilizará,
+        para el desempeño de su trabajo, modernas técnicas estadísticas; así como
+        también herramientas computacionales, de telecomunicación e informática,
+        de última generación, las que le permitirán proporcionar al usuario final,
+        información confiable, oportuna, pertinente y de calidad.El Ingeniero Estadístico
+        está formado académica y profesionalmente para participar en la investigación
+        científica observacional o experimental, en la docencia universitaria, en la
+        gestión empresarial e interactuar con equipos multidisciplinarios, tanto en
+        instituciones públicas como privadas, enriqueciendo permanentemente su habilidad
+        profesional y su personalidad, logrando como resultados aportes significativos y
+        valiosos para el desarrollo del país.
+    </string>
+
+
+
+    <string name="nombre_facultad_fiee">Facultad de Ingeniería Eléctrica y Electrónica</string>
+    <string name="info_facultad_fiee">
+        Creada por Ley del 12 de junio de 1903, se inició la enseñanza y desarrollo de la Ingeniería Eléctrica en el Perú durante el gobierno del Presidente don José Balta. Reorganizada el 13 de enero de 1911, es posteriormente designada como la Especialidad de Mecánicos Electricistas hasta 1946 en que, mediante una ley universitaria, las especialidades de la Escuela pasan a constituirse en departamentos con un programa de estudios de seis años.
+        Al otorgarse a la Escuela Nacional de Ingenieros la denominación de Universidad Nacional de Ingeniería mediante Ley 12379 del 19 de julio de 1955, se dio una nueva estructura orgánica a la institución; los Departamentos se convierten en Facultades y dentro de ellas, la Facultad de Ingeniería Mecánica y Eléctrica.
+    </string>
+    <string name="pagina_facultad_fiee">http://fiee.uni.edu.pe/</string>
+    <string-array name="escuela_facultad_fiee">
+        <item>electrica</item>
+        <item>electronica</item>
+        <item>telecomunicaciones</item>
+    </string-array>
+    <string name="nombre_escuela_electrica">Ingenieria Electrica</string>
+    <string name="info_escuela_electrica">
+        Es responsabilidad del Ingeniero Electricista el planeamiento, elaboración y ejecución de proyectos
+        y obras en las diversas etapas de instalación, operación, generación, transmisión, transformación,
+        distribución, utilización, mantenimiento y desarrollo energético del país. Asimismo, tiene a su
+        cargo los estudios, proyectos, diseños y ejecución de obras de instalaciones eléctricas industriales,
+        domiciliarias y de alumbrado público.
+    </string>
+    <string name="nombre_escuela_electronica">Ingenieria Electronica</string>
+    <string name="info_escuela_electronica">
+        El Ingeniero Electrónico de la UNI, está capacitado para el desarrollo de los sistemas
+        de comunicaciones, sistemas de instrumentación, control y automatización de plantas
+        industriales de producción y de servicios, tecnología y aplicación biomédica, desarrollo
+        de sistemas de informática y sus diversas aplicaciones de teleproceso, centros de cómputo,
+        control automático computarizado, procesamiento de señales, equipos biomédicos, equipamiento
+        y operatividad de sistemas de nucleares y militares, entre otras actividades.
+    </string>
+    <string name="nombre_escuela_telecomunicaciones">Ingenieria de Telecomunicaciones</string>
+    <string name="info_escuela_telecomunicaciones">
+        El Ingeniero de Telecomunicaciones, está calificado para el desarrollo y
+        aplicación de los sistemas de comunicaciones y telemática de la más alta tecnología
+        en el ejercicio de diversas tareas y actividades de investigación, adaptación, innovación,
+        aplicación, transferencia y desarrollo tecnológico y social. Es su responsabilidad, el estudio,
+        diseño, ejecución de obras, la instalación, operación de redes con sus sistemas integrados de
+        telecomunicaciones y telemática; el planeamiento, operatividad, gestión, evaluación, administración
+        y asesoramiento de sistemas de comunicación electrónica terrestre, aérea, marítima, satelital, de
+        instituciones y empresas militares y civiles.
+    </string>
+
+
+
+
+    <string name="nombre_facultad_figmm">Facultad de Ingeniería Geológica, Minera y Metalúrgica</string>
+    <string name="info_facultad_figmm">
+         La facultad de Ingeniería Geológica, Minera y Metalúrgica tiene como principal misión la formación profesional en ciencias aplicadas, ingeniería y los campos asociados que relacionan el descubrimiento y la recuperación de los recursos naturales de la tierra y la conversión de los materiales con protección del  Ambiente.
+         Su visión es convertirse en líder de las Facultades de Ingeniería Geológica, Minera y Metalúrgica del Perú, así como en la formación profesional, en la investigación científica, técnica y humanística de sus egresados, con sólidos valores éticos.
+    </string>
+    <string name="pagina_facultad_figmm">http://www.figmm.uni.edu.pe/</string>
+    <string-array name="escuela_facultad_figmm">
+        <item>geologica</item>
+        <item>metalurgica</item>
+        <item>minas</item>
+    </string-array>
+    <string name="nombre_escuela_geologica">Ingenieria Geologica</string>
+    <string name="info_escuela_geologica">
+        La Ingeniería Geológica proporciona un programa de geo ciencia aplicada en el mundo.
+        Nuestro énfasis principal está en la ingeniería geológica, geología del petróleo y geología económica.
+        La Escuela de Ingeniería Geológica combina un enfoque excepcional en las habilidades del campo con
+        los medios del laboratorio de calidad superior. Teniendo en cuenta que las rocas, minerales y combustible
+        son materiales fundamentales en el desarrollo económico e industrial de nuestro país. Son los geólogos
+        los encargados de la prospección y exploración de yacimientos tanto metálicos como no metálicos, así
+        como en el campo de los hidrocarburos y recursos hídricos, en el estudio de la resistencia de las
+        rocas aplicado a construcciones civiles en el área de geo mecánica, sin dejar de lado el cuidado del ambiente.
+    </string>
+    <string name="nombre_escuela_metalurgica">Ingenieria Metalurgica</string>
+    <string name="info_escuela_metalurgica">
+        La Escuela de Ingeniería Metalúrgica tiene un programa con énfasis en el conocimiento
+        de la estructura, propiedades, proceso y principios de los materiales para el diseño
+        y para resolver problemas de operación. El ingeniero metalurgista es un profesional
+        de formación universitaria en los campos científico, tecnológico, económico y humanista;
+        con habilidades en su especialidad en áreas como la de diseño, planeamiento, producción y servicios.
+    </string>
+    <string name="nombre_escuela_minas">Ingenieria de Minas</string>
+    <string name="info_escuela_minas">
+        La Minería involucra la extracción de metales de todos los tipos, los combustibles sólidos
+        y las fuentes de energía como carbón y el material nuclear. El ingeniero de Minas formado
+        en la UNI, recibe el conocimiento y experiencia en la aplicación de los principios de la
+        explotación de los recursos de la tierra. Desarrolla estrategias y habilidades para resolver
+        problemas mineros y capacidad para el trabajo en equipo y toma de decisión.
+    </string>
+
+
+
+
+
+    <string name="nombre_facultad_fiis">Facultad de Ingeniería Industrial y de Sistemas</string>
+    <string name="info_facultad_fiis">
+        La Facultad de Ingeniería Industrial y de Sistemas, se caracteriza por estar imbuida por un
+        gran sentido innovador y permanente actualización científica y tecnológica, lo que le permite
+        formar profesionales de elevado nivel en sus respectivas especialidades, dotados de sólidos
+        principios éticos, morales, culturales y de protección ambiental para que puedan enfrentar
+        con éxito las exigencias propias del mundo moderno y aportar al desarrollo del país. Con este
+        fin se despliega permanentes esfuerzos para mantener al día el currículo de estudios para contar
+        con las más modernas facilidades tecnológicas y de información, compatibles con nuestro compromiso de formar excelentes profesionales.
+    </string>
+    <string name="pagina_facultad_fiis">http://www.fiis.uni.edu.pe/</string>
+    <string-array name="escuela_facultad_fiis">
+        <item>industrial</item>
+        <item>sistemas</item>
+    </string-array>
+    <string name="nombre_escuela_industrial">Ingenieria Industrial</string>
+    <string name="info_escuela_industrial">
+        El Ingeniero Industrial formado en la UNI, recibe una preparación integral que propicia su sentido creador y
+        emprendedor, que desarrolla las potencialidades humanísticas, el pensamiento crítico y la investigación, el aprendizaje
+        continuo y la constante superación personal, lo que le permite enfrentar con éxito los retos actuales y del futuro.
+    </string>
+    <string name="nombre_escuela_sistemas">Ingenieria de Sistemas</string>
+    <string name="info_escuela_sistemas">
+        El Ingeniero de Sistemas es un profesional con sólida formación en las ciencias naturales y ciencias sociales a nivel básico
+        y aplicado, con conocimientos en aspectos tecnológicos que le permiten analizar, comprender, modelar y optimizar el proceso de toma
+        de decisiones en una organización, donde el factor tecnología de la información tiene una labor integradora. Es un profesional capaz
+        de modelar estructuras y procesos organizativos, diseñar y administrar los recursos de tecnología de la información, construir e
+        implantar aplicaciones de tecnología informática, así como de diseñar soluciones a problemas complejos.
+    </string>
+
+
+
+
+    <string name="nombre_facultad_fim">Facultad de Ingeniería Mecánica</string>
+    <string name="info_facultad_fim">
+        Teniendo como misión fundamental formar profesionales idóneos y competitivos y desarrollar tecnologías que contribuyan
+        al avance industrial y al progreso del país, la Facultad de Ingeniería Mecánica de la
+        Universidad Nacional de Ingeniería ofrece las especialidades de Ingeniería Mecánica, Ingeniería Mecánica
+        Eléctrica, Ingeniería Naval e Ingeniería Mecatrónica. En las nuevas condiciones, creadas por los avances tecnológicos
+        de las últimas dos décadas, la Facultad de Ingeniería Mecánica se encuentra comprometida con esta era del conocimiento
+        y la información y realiza redoblados esfuerzos conducentes a lograr una verdadera excelencia académica de cara al nuevo milenio.
+    </string>
+    <string name="pagina_facultad_fim">http://www.fim.uni.edu.pe/</string>
+    <string-array name="escuela_facultad_fim">
+        <item>mecanica</item>
+        <item>mecelectrica</item>
+        <item>naval</item>
+        <item>mecatronica</item>
+    </string-array>
+    <string name="nombre_escuela_mecanica">Ingenieria Mecanica</string>
+    <string name="info_escuela_mecanica">
+        Como es una de las especialidades de mayor cobertura técnica, la formación del estudiante está
+        enfocada al diseño, fabricación y montaje de máquinas y estructuras mecánicas diversas,
+        así como al mantenimiento y reparación de máquinas, incluidas las de generación, transformación,
+        transporte, distribución y uso de la energía.
+    </string>
+    <string name="nombre_escuela_mecelectrica">Ingenieria Mecanica Electrica</string>
+    <string name="info_escuela_mecelectrica">
+        Como especialidad de creciente demanda, la formación se enfoca prioritariamente en centrar la
+        función principal en el diseño de sistemas de generación, transmisión y distribución eléctrica
+        y sistemas electromecánicos en plantas de producción, constituyendo su núcleo principal tanto
+        la generación, transmisión y distribución de la energía eléctrica como el diseño, construcción,
+        instalación y mantenimiento de máquinas eléctricas y plantas de generación, sean hidráulicas, térmicas, nucleares, etc.
+    </string>
+    <string name="nombre_escuela_naval">Ingenieria Naval</string>
+    <string name="info_escuela_naval">
+        Al ser una de las ramas más antiguas de la ingeniería, la formación tiene en cuenta
+        la complejidad de la tecnología naval moderna y la singularidad del litoral peruano, por
+        lo que el plan de estudios se sustenta en conocimientos muy sólidos en las diversas disciplinas,
+        a fin de que el diseño, construcción, mantenimiento, operación y administración de todo tipo de
+        naves así como estructuras marítimas y portuarias, sean concebidos por ingenieros altamente
+        especializados, cumpliendo los mejores estándares internacionales de diseño y tecnología de construcción.
+    </string>
+    <string name="nombre_escuela_mecatronica">Ingenieria Mecatronica</string>
+    <string name="info_escuela_mecatronica">
+        Al ser una especialidad con gran proyección y demanda, la formación constituye una integración
+        de disciplinas que abarca la Mecánica, la Electrónica y la Informática, tanto para el diseño y
+        la utilización de sistemas inteligentes como para la optimización del rendimiento de los sistemas
+        productivos. Para ese efecto, se recurre a técnicas de control digital basadas en computadoras y
+        comunicación a distancia, aplicadas a la concepción, diseño y fabricación de sistemas mecánicos
+        automatizados, robots, sistemas inteligentes, así como al ahorro de energía, la elevación de la
+        productividad y calidad de la industria.
+    </string>
+
+
+
+    <string name="nombre_facultad_fip">Facultad de Ingeniería de Petróleo, Gas Natural y Petroquímica</string>
+    <string name="info_facultad_fip">
+        La Facultad de Ingeniería de Petróleo, Gas Natural y petroquímica, con el espíritu de desarrollo
+        en el futuro, presenta los nuevos planes Curriculares y programas de Estudios y Servicios que
+        ofrece a los alumnos de la Facultad, orientados a la investigación científica y tecnológica
+        realizada por los profesores de esta casa de estudios.
+    </string>
+    <string name="pagina_facultad_fip">http://www.fip.uni.edu.pe/</string>
+
+    <string-array name="escuela_facultad_fip">
+        <item>petroleo</item>
+        <item>petroquimica</item>
+    </string-array>
+    <string name="nombre_escuela_petroleo">Ingenieria de Petroleo</string>
+    <string name="info_escuela_petroleo">
+        El ingeniero de petróleo y gas natural desarrolla sus actividades en las diferentes etapas
+        de la industria del petróleo y gas natural: la explotación, perforación, producción, transporte,
+        separación, almacenamiento, comercialización, negociación y auditoría de contratos de hidrocarburos.
+        Gestión, estudio de impacto ambiental (EIA), programas de adecuación del manejo ambiental (PAMA), en el sector hidrocarburo.
+    </string>
+    <string name="nombre_escuela_petroquimica">Ingenieria Petroquimica</string>
+    <string name="info_escuela_petroquimica">
+        El ingeniero petroquímico desarrolla sus actividades en las diferentes fases de la
+        industria del petróleo, gas natural y su industrialización en plantas de proceso industriales
+        de refinación, petroquímica y afines. Diseña y/o modifica tecnologías para la racional explotación,
+        producción y aplicación industrial del petróleo, gas natural y sus derivados. Auditoria, inspección,
+        fiscalización y peritaje en el sector hidrocarburo.
+    </string>
+
+
+
+
+
+    <string name="nombre_facultad_fiqt">Facultad de Ingeniería Química y Textil</string>
+    <string name="info_facultad_fiqt">
+        La Facultad de Ingeniería Química y Textil en el antegrado ofrece las especialidades de Ingeniería Química e Ingeniería Textil. Debemos hacer notar que la Universidad Nacional de Ingeniería es la única en el país que brinda la especialidad de Ingeniería Textil.
+        Los estudiantes para estas carreras deben tener:
+        Predisposición para el aprendizaje de las ciencias físicas, químicas y matemáticas.
+        Reacción ante nuevos eventos y adaptación.
+        Espíritu innovador, creativo.
+        Mente sistemática para el análisis de los problemas que se presentan.
+        Liderazgo en el medio en que debe actuar.
+        Capacidad de trabajo en equipo, habilidad negociadora y de gestión.
+    </string>
+    <string name="pagina_facultad_fiqt">http://fiqt.uni.edu.pe/home/</string>
+
+    <string-array name="escuela_facultad_fiqt">
+        <item>iquimica</item>
+        <item>textil</item>
+    </string-array>
+    <string name="nombre_escuela_iquimica">Ingenieria Quimica</string>
+    <string name="info_escuela_iquimica">
+        El campo de la Ingeniería Química corresponde a la industria de los procesos químicos,
+        es decir, aquellas industrias donde se obtienen productos tan diversos como el cemento,
+        los fertilizantes sintéticos, el aceite doméstico, las pinturas, los combustibles líquidos,
+        entre muchos otros. La mayor parte de los productos de la tecnología moderna son resultado de
+        las transformaciones en las que intervienen reacciones químicas. Es por ello que la ingeniería
+        química, además de su campo tradicional de actividad dentro de la industria química, tiene un
+        papel crucial en sectores como el ambiente, medicina, alimentación, agricultura, energía y
+        simulación y control de procesos.
+    </string>
+    <string name="nombre_escuela_textil">Ingenieria Textil</string>
+    <string name="info_escuela_textil">
+        Los futuros ingenieros textiles están capacitados para administrar, supervisar e investigar
+        en todas las ramas de la industria textil, las cuales son hilandería, diseño textil,
+        tejeduría plana, tejeduría de punto, tintorería, acabados textiles y en confección, además
+        del control de calidad en cualquiera de las etapas. Las empresas textiles en el país son
+        diversas, dependiendo de la materia prima con que trabajan, como el algodón, la lana, pelos,
+        así como con fibras manufacturadas (poliéster, rayón viscosa, nylon, acrílico, etc.), ya sean
+        solas o en mezclas y también dependiendo del mercado al cual van dirigidos sus productos, ya
+        que los usos de los textiles son bastante amplios, tales como:\na) Prendas de vestir (interior
+        y exterior); \nb) Artículos para el hogar (cortinas, sábanas, edredones, toallas, etc.); \nc) Tejidos
+        técnicos (tejidos para filtración de gas caliente, cintas para cinturones de seguridad, etc.); \nd)
+        No-tejidos (pañales, entretelas, etc.); \ne) En Medicina (algodón quirúrgico, gasa, válvulas de poliéster,
+        etc.); \nf) Geo textiles (para la construcción de puentes y carreteras); \ng) Prendas protectoras (chalecos
+        antibalas, ropa para corredores de autos, etc.).
+    </string>
 </resources>

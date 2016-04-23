@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.facultades:
                 getSupportFragmentManager().beginTransaction()
                         .setCustomAnimations(R.anim.enter,R.anim.exit,R.anim.pop_enter,R.anim.pop_exit)
-                        .replace(R.id.principal,new NewFragment()).addToBackStack(null).commit();
+                        .replace(R.id.principal,new FacultadesListFragment()).addToBackStack(null).commit();
                 break;
             case R.id.ubicacion:
                 getSupportFragmentManager().beginTransaction()

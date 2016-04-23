@@ -18,10 +18,4 @@ public class NewFragment extends Fragment {
         }
         return super.onCreateAnimation(transit, enter, nextAnim);
     }
-
-    @Override
-    public void onStop() {
-        super.onStop();
-        Log.i("mensaje","ggwp xd");
-    }
 }
