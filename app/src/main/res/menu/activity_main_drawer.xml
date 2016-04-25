@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
         <item
             android:id="@+id/inicio"
             android:title="Inicio" />
@@ -14,7 +13,30 @@
         <item
             android:id="@+id/biblioteca"
             android:title="Biblioteca" />
-    </group>
+        <item android:title="Posgrado">
+            <menu>
+                <item
+                    android:id="@+id/maestria"
+                    android:title="Maestria" />
+                <item
+                    android:id="@+id/doctorado"
+                    android:title="Doctorado" />
+                <item
+                    android:id="@+id/diplomado"
+                    android:title="Diplomado" />
+                <item
+                    android:id="@+id/segunda"
+                    android:title="Segunda Especializacion" />
+            </menu>
+        </item>
+        <item android:title="Intranet">
+            <menu>
+                <item
+                    android:id="@+id/moodle"
+                    android:title="Moodle" />
+            </menu>
+        </item>
+
 
 
 </menu>
