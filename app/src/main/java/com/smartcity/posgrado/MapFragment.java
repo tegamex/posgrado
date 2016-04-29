@@ -121,6 +121,7 @@ public class MapFragment extends NewFragment {
             mMapFragment = new SupportMapFragment() {
                 @Override
                 public void onActivityCreated(Bundle savedInstanceState) {
+                    Log.i("mensaje","captando mapa");
                     super.onActivityCreated(savedInstanceState);
                     mMap = mMapFragment.getMap();
                     if (mMap != null) {

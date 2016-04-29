@@ -14,7 +14,7 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    private int anterior=0;
+    private int anterior=R.id.inicio;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +30,10 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.principal,new PagerFragment()).commit();
     }
 
     @Override
@@ -89,17 +93,17 @@ public class MainActivity extends AppCompatActivity
             case R.id.ubicacion:
                 getSupportFragmentManager().beginTransaction()
                         .setCustomAnimations(R.anim.enter,R.anim.exit,R.anim.pop_enter,R.anim.pop_exit)
-                        .replace(R.id.principal,new PagerFragment()).addToBackStack(null).commit();
+                        .replace(R.id.principal,new MapFragment()).addToBackStack(null).commit();
                 break;
             case R.id.biblioteca:
                 getSupportFragmentManager().beginTransaction()
                         .setCustomAnimations(R.anim.enter,R.anim.exit,R.anim.pop_enter,R.anim.pop_exit)
-                        .replace(R.id.principal,new MapFragment()).addToBackStack(null).commit();
+                        .replace(R.id.principal,new NewFragment()).addToBackStack(null).commit();
                 break;
             case R.id.maestria:
                 getSupportFragmentManager().beginTransaction()
                         .setCustomAnimations(R.anim.enter,R.anim.exit,R.anim.pop_enter,R.anim.pop_exit)
-                        .replace(R.id.principal,new MapFragment()).addToBackStack(null).commit();
+                        .replace(R.id.principal,new NewFragment()).addToBackStack(null).commit();
                 break;
             default:
         }

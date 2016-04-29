@@ -23,7 +23,7 @@ public class FragmentViewAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        Fragment f = new Fragment();
+        Fragment f ;
         switch (position) {
             case 0:
                 f = new GridNFragment();
@@ -34,6 +34,8 @@ public class FragmentViewAdapter extends FragmentPagerAdapter {
             case 2:
                 f = new ImageNFragment();
                 break;
+            default:
+                f=new Fragment();
         }
         return f;
     }
