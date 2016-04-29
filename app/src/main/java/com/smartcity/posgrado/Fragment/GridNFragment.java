@@ -1,5 +1,6 @@
 package com.smartcity.posgrado.Fragment;
 
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -15,11 +16,17 @@ import com.smartcity.posgrado.R;
  * Created by giovanny on 22/04/16.
  */
 public class GridNFragment extends Fragment {
-    public static int [] prgmImages={R.drawable.dead,R.drawable.xmen,R.drawable.dead,R.drawable.logo_uni};
-    public static String [] prgmNameList={"Deapool :3","X-men","Beca Stander","Beca Alianza"};
+    public int [] prgmImages={R.drawable.faua,R.drawable.fc,R.drawable.fia,R.drawable.fic,R.drawable.fiee,R.drawable.fieecs,R.drawable.figmm,
+            R.drawable.fiis,R.drawable.fim,R.drawable.fip,R.drawable.fiqt};
+    public String [] prgmNameList={"Facultad de Arquitectura, Urbanismo y Artes","Facultad de Ciencias","Facultad de Ingeniería Ambiental",
+            "Facultad de Ingeniería Civil","Facultad de Ingeniería Eléctrica y Electrónica","Facultad de Ingeniería Económica, Estadística y CCSS",
+            "Facultad de Ingeniería Geológica, Minera y Metalúrgica","Facultad de Ingeniería Industrial y de Sistemas",
+            "Facultad de Ingeniería Mecánica","Facultad de Ingeniería de Petróleo, Gas Natural y Petroquímica",
+            "Facultad de Ingeniería Química y Textil"};
 
     GridView gv;
     public GridNFragment() {
+        
     }
 
     @Nullable

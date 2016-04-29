@@ -26,10 +26,10 @@ public class FragmentViewAdapter extends FragmentPagerAdapter {
         Fragment f ;
         switch (position) {
             case 0:
-                f = new GridNFragment();
+                f = new ListaNFragment();
                 break;
             case 1:
-                f = new ListaNFragment();
+                f = new GridNFragment();
                 break;
             case 2:
                 f = new ImageNFragment();
