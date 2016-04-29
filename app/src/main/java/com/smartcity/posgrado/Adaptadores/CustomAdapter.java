@@ -9,11 +9,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.smartcity.posgrado.R;
 
-/**
- * Created by giovanny on 15/04/16.
- */
+
 public class CustomAdapter extends BaseAdapter {
     String [] result;
     Context context;

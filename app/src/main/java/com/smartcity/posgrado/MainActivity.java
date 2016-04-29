@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.principal,new PagerFragment()).commit();
     }
@@ -56,7 +55,6 @@ public class MainActivity extends AppCompatActivity
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -103,7 +101,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.maestria:
                 getSupportFragmentManager().beginTransaction()
                         .setCustomAnimations(R.anim.enter,R.anim.exit,R.anim.pop_enter,R.anim.pop_exit)
-                        .replace(R.id.principal,new NewFragment()).addToBackStack(null).commit();
+                        .replace(R.id.principal,new PagerFragment()).addToBackStack(null).commit();
                 break;
             default:
         }
