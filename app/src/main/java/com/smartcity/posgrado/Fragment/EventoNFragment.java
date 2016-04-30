@@ -33,7 +33,7 @@ public class EventoNFragment extends Fragment{
         evento.add("Proximamente");
         evento.add(new NEvento(R.drawable.figmm,"Tono Minero","Lu, Jun 15 at 13:00 PM","Jaula Civiles"));
         evento.add(new NEvento(R.drawable.estadio,"Final Campeonato Estudiantes UNI","Vi, Jun 20 at 4:00 PM","Estadio de la Universidad Nacional de Ingenieria"));
-        evento.add(new NEvento(R.drawable.figmm,"Tonozo FIQT ","Lu, Jul 05 at 13:00 PM","Explanada de la facultad de FIQT"));
+        evento.add(new NEvento(R.drawable.fiqt,"Tonazo FIQT ","Lu, Jul 05 at 13:00 PM","Explanada de la facultad de FIQT"));
     }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="150dp"
+    android:layout_height="120dp"
     android:weightSum="1">
 
     <ImageView
@@ -10,13 +10,15 @@
         android:layout_height="match_parent"
         android:id="@+id/ieImagen"
         android:src="@drawable/fc"
-        android:padding="8dp" />
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp" />
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="22dp"
+        android:paddingTop="15dp"
         android:paddingLeft="5dp">
 
         <TextView
