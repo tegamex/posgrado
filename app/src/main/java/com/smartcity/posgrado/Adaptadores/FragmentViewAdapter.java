@@ -4,6 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import com.smartcity.posgrado.Fragment.EventoNFragment;
 import com.smartcity.posgrado.Fragment.GridNFragment;
 import com.smartcity.posgrado.Fragment.ImageNFragment;
 import com.smartcity.posgrado.Fragment.ListaNFragment;
@@ -29,10 +30,10 @@ public class FragmentViewAdapter extends FragmentPagerAdapter {
                 f = new ListaNFragment();
                 break;
             case 1:
-                f = new GridNFragment();
+                f = new EventoNFragment();
                 break;
             case 2:
-                f = new ImageNFragment();
+                f = new GridNFragment();
                 break;
             default:
                 f=new Fragment();

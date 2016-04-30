@@ -11,12 +11,12 @@
         android:id="@+id/imagenLista"
         android:scaleType="centerCrop"
         android:src="@drawable/dead"
-        android:layout_above="@+id/linearLayout2"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/linearLayout2" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,26 +25,27 @@
         android:text="Titulo"
         android:id="@+id/textEList"
         android:textStyle="bold|normal"
-        android:layout_above="@+id/linearLayout2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:background="#a3b2b2b2"
         android:paddingTop="3dp"
         android:paddingBottom="3dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
         android:textSize="15dp"
-        android:paddingLeft="1dp"
-        android:paddingRight="1dp" />
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_alignBottom="@+id/imagenLista"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="wrap_content"
         android:id="@+id/linearLayout2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:weightSum="1">
 
         <TextView
             android:layout_width="match_parent"
@@ -53,7 +54,10 @@
             android:text="Aca va el contenido"
             android:id="@+id/tContenido"
             android:textSize="12dp"
-            android:paddingLeft="1dp"
-            android:paddingRight="1dp" />
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:paddingTop="1dp"
+            android:paddingBottom="3dp"
+            android:layout_gravity="center" />
     </LinearLayout>
 </RelativeLayout>

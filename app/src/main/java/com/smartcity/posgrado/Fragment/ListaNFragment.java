@@ -38,8 +38,9 @@ public class ListaNFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_n_lista, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_n_noticia, container, false);
         lv=(ListView)rootView.findViewById(R.id.listView);
+        //lv.addHeaderView();
         lv.setAdapter(new CustomAdapter(getActivity(), prgmNameList,prgmImages,descrip,R.layout.element_list,R.id.imagenLista,R.id.textEList,R.id.tContenido));
         return rootView;
     }
