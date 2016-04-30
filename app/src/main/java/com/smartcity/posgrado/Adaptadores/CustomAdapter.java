@@ -19,17 +19,21 @@ public class CustomAdapter extends BaseAdapter {
     int layoutView;
     int imageEle;
     int tituloEle;
+    int descriEle;
+    String []descrip;
 
-    public CustomAdapter(Context mainActivity, String[] prgmNameList, int[] prgmImages, int viewE, int imageEle,int tituloEle) {
+    public CustomAdapter(Context mainActivity, String[] prgmNameList, int[] prgmImages,String []descrip, int viewE, int imageEle,int tituloEle,int descriEle) {
         // TODO Auto-generated constructor stub
         result=prgmNameList;
         context=mainActivity;
         imageId=prgmImages;
+        this.descrip=descrip;
         inflater = (LayoutInflater)context.
                 getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         layoutView = viewE;
         this.imageEle=imageEle;
         this.tituloEle=tituloEle;
+        this.descriEle=descriEle;
     }
     @Override
     public int getCount() {
@@ -57,6 +61,8 @@ public class CustomAdapter extends BaseAdapter {
                     false);
         }
         ((TextView) rowView.findViewById(tituloEle)).setText(result[position]);
+        if(descrip.length>0)
+            ((TextView) rowView.findViewById(descriEle)).setText(descrip[position]);
         ((ImageView) rowView.findViewById(imageEle)).setImageResource(imageId[position]);
         rowView.setOnClickListener(new View.OnClickListener() {
             @Override

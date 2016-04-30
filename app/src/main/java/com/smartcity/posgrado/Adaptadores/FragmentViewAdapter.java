@@ -46,4 +46,3 @@ public class FragmentViewAdapter extends FragmentPagerAdapter {
     }
 
 }
-

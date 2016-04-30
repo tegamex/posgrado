@@ -34,7 +34,7 @@ public class GridNFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_n_becas, container, false);
         gv=(GridView)rootView.findViewById(R.id.gridView);
-        gv.setAdapter(new CustomAdapter(getActivity(), prgmNameList,prgmImages,R.layout.element_grid,R.id.imagenGrid,R.id.textEGrid));
+        gv.setAdapter(new CustomAdapter(getActivity(), prgmNameList,prgmImages,new String[]{},R.layout.element_grid,R.id.imagenGrid,R.id.textEGrid,R.id.tContenido));
         return rootView;
     }
 }
