@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/dead"
+        android:src="@drawable/fc"
         android:id="@+id/imagenGrid"
         />
 
