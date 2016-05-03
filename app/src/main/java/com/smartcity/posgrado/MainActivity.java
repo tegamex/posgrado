@@ -12,9 +12,9 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private int anterior=R.id.inicio;
+    int tipoPosgrado;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -101,9 +101,28 @@ public class MainActivity extends AppCompatActivity
                         .replace(R.id.principal,new NewFragment()).addToBackStack(null).commit();
                 break;
             case R.id.maestria:
+                tipoPosgrado = 1;
                 getSupportFragmentManager().beginTransaction()
                         .setCustomAnimations(R.anim.enter,R.anim.exit,R.anim.pop_enter,R.anim.pop_exit)
-                        .replace(R.id.principal,new NewFragment()).addToBackStack(null).commit();
+                        .replace(R.id.principal,new CourseFragment(tipoPosgrado)).addToBackStack(null).commit();
+                break;
+            case R.id.doctorado:
+                tipoPosgrado=2;
+                getSupportFragmentManager().beginTransaction()
+                        .setCustomAnimations(R.anim.enter,R.anim.exit,R.anim.pop_enter,R.anim.pop_exit)
+                        .replace(R.id.principal,new CourseFragment(tipoPosgrado)).addToBackStack(null).commit();
+                break;
+            case R.id.diplomado:
+                tipoPosgrado =3;
+                getSupportFragmentManager().beginTransaction()
+                        .setCustomAnimations(R.anim.enter,R.anim.exit,R.anim.pop_enter,R.anim.pop_exit)
+                        .replace(R.id.principal,new CourseFragment(tipoPosgrado)).addToBackStack(null).commit();
+                break;
+            case R.id.especializacion:
+                tipoPosgrado = 4;
+                getSupportFragmentManager().beginTransaction()
+                        .setCustomAnimations(R.anim.enter,R.anim.exit,R.anim.pop_enter,R.anim.pop_exit)
+                        .replace(R.id.principal,new CourseFragment(tipoPosgrado)).addToBackStack(null).commit();
                 break;
             default:
         }
