@@ -30,9 +30,6 @@
                 <item
                     android:id="@+id/diplomado"
                     android:title="Diplomado"/>
-                <item
-                    android:id="@+id/especializacion"
-                    android:title="2da especializacion"/>
             </menu>
         </item>
     </group>

@@ -24,7 +24,6 @@ public class CourseFragment extends NewFragment {
         if(tipoposgrado == 1) nombre = "Programas de Maestria";
         else if(tipoposgrado==2) nombre = "Programas de Doctorado";
         else if (tipoposgrado ==3) nombre = "Cursos de Diplomado";
-        else nombre = "2da Especializacion";
         nombreCap.setText(nombre);
         return v;
     }

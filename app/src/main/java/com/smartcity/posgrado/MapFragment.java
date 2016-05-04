@@ -57,7 +57,6 @@ public class MapFragment extends NewFragment {
     private LocationManager locationManager;
     private Polyline line;
 
-
     LocationListener locationListener;
     SupportMapFragment mMapFragment;
     @Override

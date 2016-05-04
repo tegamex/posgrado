@@ -118,12 +118,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         .setCustomAnimations(R.anim.enter,R.anim.exit,R.anim.pop_enter,R.anim.pop_exit)
                         .replace(R.id.principal,new CourseFragment(tipoPosgrado)).addToBackStack(null).commit();
                 break;
-            case R.id.especializacion:
-                tipoPosgrado = 4;
-                getSupportFragmentManager().beginTransaction()
-                        .setCustomAnimations(R.anim.enter,R.anim.exit,R.anim.pop_enter,R.anim.pop_exit)
-                        .replace(R.id.principal,new CourseFragment(tipoPosgrado)).addToBackStack(null).commit();
-                break;
             default:
         }
         return true;
